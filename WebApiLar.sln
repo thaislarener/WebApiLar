@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiLar", "WebApiLar\WebApiLar.csproj", "{343BBE9D-4F1C-424F-A282-3EF1EF0E4585}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{343BBE9D-4F1C-424F-A282-3EF1EF0E4585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343BBE9D-4F1C-424F-A282-3EF1EF0E4585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343BBE9D-4F1C-424F-A282-3EF1EF0E4585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343BBE9D-4F1C-424F-A282-3EF1EF0E4585}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52F3AC0A-3DAC-4958-B5D7-1A1F3B50B5CF}
+	EndGlobalSection
+EndGlobal
