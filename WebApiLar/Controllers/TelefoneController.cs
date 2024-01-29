@@ -23,10 +23,10 @@ namespace WebApiLar.Controllers
             return Ok(await _telefoneInterface.GetTelefones());
         }
 
-        [HttpGet("{cpf}")]
-        public async Task<ActionResult<ServiceResponse<List<TelefoneModel>>>> GetTelefoneByCpf(string cpf)
+        [HttpGet("{id}")]
+        public async Task<ActionResult<ServiceResponse<TelefoneModel>>> GetTelefoneById(int id)
         {
-            ServiceResponse<List<TelefoneModel>> serviceResponse = await _telefoneInterface.GetTelefoneByCpf(cpf);
+            ServiceResponse<TelefoneModel> serviceResponse = await _telefoneInterface.GetTelefoneById(id);
 
             return Ok(serviceResponse);
         }

@@ -71,13 +71,13 @@ namespace WebApiLar.Service.TelefoneService
             return serviceResponse;
         }
 
-        public async Task<ServiceResponse<List<TelefoneModel>>> GetTelefoneByCpf(string cpf)
+        public async Task<ServiceResponse<TelefoneModel>> GetTelefoneById(int id)
         {
-            ServiceResponse<List<TelefoneModel>> serviceResponse = new ServiceResponse<List<TelefoneModel>>();
+            ServiceResponse<TelefoneModel> serviceResponse = new ServiceResponse<TelefoneModel>();
 
             try
             {
-                TelefoneModel telefone = _context.Telefone.FirstOrDefault(x => x.CpfPessoa == cpf);
+                TelefoneModel telefone = _context.Telefone.FirstOrDefault(x => x.Id == id);
 
                 if (telefone == null)
                 {
